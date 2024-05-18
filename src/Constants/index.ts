@@ -49,3 +49,28 @@ export const feature_card =[
         
     }
 ]
+
+
+export const footer_links = [
+    {
+        title: "Company",
+        links: [
+            {title: "Products", url: "/"},
+            {title: "Restaurants", url: "/"},
+            {title: "About", url: "/"},
+            {title: "Delivery",  url: "/"},
+        ]
+    },
+
+ 
+
+    {
+        title: "Support",
+        links: [
+            {title: "Terms and conditions", url: "/"},
+            {title: "Privacy policy", url: "/"},
+            {title: "Blogs", url: "/"},
+            {title: "Contact us",  url: "/"},
+        ]
+    },
+]

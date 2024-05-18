@@ -12,9 +12,9 @@ const Restaurant  = ()=>{
             </div>
 
             <div className="block gap-y-5 lg:grid lg:grid-cols-3 lg:gap-5 pt-5">
-                <div className="bg-[#fff] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
+                <div className="bg-[#fff] mx-[5vw] my-[7vw] lg:my-[0vw] lg:mx-[0vw] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
                     <div className="flex flex-col space-y-4">
-                        <Image src = "/foodone.svg" alt = "foodone" width={260} height={100}/>
+                        <Image src = "/foodone.svg" alt = "foodone" className="w-[80vw]" width={260} height={100}/>
                         <h1 className="text-[#2e312f] font-extrabold">
                             Burger Corner
                         </h1>
@@ -35,9 +35,9 @@ const Restaurant  = ()=>{
 
                 </div>
 
-                <div className="bg-[#fff] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
+                <div className="bg-[#fff] my-[7vw] lg:my-[0vw] mx-[5vw] lg:mx-[0vw] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
                     <div className="flex flex-col space-y-4">
-                        <Image src = "/foodtwo.svg" alt = "foodone" width={260} height={100}/>
+                        <Image src = "/foodtwo.svg" alt = "foodone" className="w-[80vw]" width={260} height={100}/>
                         <h1 className="text-[#2e312f] font-extrabold">
                             Craving & More
                         </h1>
@@ -59,9 +59,9 @@ const Restaurant  = ()=>{
                 </div>
               
 
-                <div className="bg-[#fff] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
+                <div className="bg-[#fff] my-[7vw] lg:my-[0vw] mx-[5vw] lg:mx-[0vw] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
                     <div className="flex flex-col space-y-4">
-                        <Image src = "/foodthree.svg" alt = "foodone" width={260} height={100}/>
+                        <Image src = "/foodthree.svg" alt = "foodone" className="w-[80vw]" width={260} height={100}/>
                         <h1 className="text-[#2e312f] font-extrabold">
                             Pasta Place
                         </h1>
@@ -81,9 +81,9 @@ const Restaurant  = ()=>{
                     </div>
 
                 </div>
-                <div className="bg-[#fff] p-5 rounded-xl w-[80vw] lg:w-[23vw] gap-y-4">
+                <div className="bg-[#fff] my-[7vw] lg:my-[0vw] mx-[5vw] lg:mx-[0vw] p-5 rounded-xl w-[80vw] lg:w-[23vw] gap-y-4">
                     <div className="flex flex-col space-y-4">
-                        <Image src = "/foodfour.svg" alt = "foodone" width={260} height={100}/>
+                        <Image src = "/foodfour.svg" alt = "foodone" className="w-[80vw]" width={260} height={100}/>
                         <h1 className="text-[#2e312f] font-extrabold">
                             The Place
                         </h1>
@@ -103,9 +103,9 @@ const Restaurant  = ()=>{
                     </div>
 
                 </div>
-                <div className="bg-[#fff] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
+                <div className="bg-[#fff] my-[7vw] lg:my-[0vw] mx-[5vw] lg:mx-[0vw] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
                     <div className="flex flex-col space-y-4">
-                        <Image src = "/foodfive.svg" alt = "foodone" width={260} height={100}/>
+                        <Image src = "/foodfive.svg" alt = "foodone" className="w-[80vw]" width={260} height={100}/>
                         <h1 className="text-[#2e312f] font-extrabold">
                             Burger Close
                         </h1>
@@ -125,9 +125,9 @@ const Restaurant  = ()=>{
                     </div>
 
                 </div>
-                <div className="bg-[#fff] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
+                <div className="bg-[#fff] my-[7vw] lg:my-[0vw] mx-[5vw] lg:mx-[0vw] p-5 rounded-xl w-[80vw] lg:w-[23vw]">
                     <div className="flex flex-col space-y-4">
-                        <Image src = "/foodsix.svg" alt = "foodone" width={260} height={100}/>
+                        <Image src = "/foodsix.svg" alt = "foodone" className="w-[80vw]" width={260} height={100}/>
                         <h1 className="text-[#2e312f] font-extrabold">
                             Wizz's Kitchen
                         </h1>

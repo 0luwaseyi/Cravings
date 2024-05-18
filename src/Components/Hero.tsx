@@ -11,7 +11,7 @@ const Hero = ()=>{
                       <Image src="/delivery.svg" alt="delivery" width={170} height={90}/>  
                     </div>
                     <div>
-                        <h1 className="text-4xl text-center lg:text-left lg:text-5xl font-bold mb-[1.2vw] leading-tight">Enjoy Fresh Food <br className="hidden lg:block"/> in Your <span className="text-[#fb8011]">Healthy Life</span></h1>
+                        <h1 className="text-4xl text-center lg:text-left lg:text-4xl font-bold mb-[4vw] lg:mb-[1.2vw] leading-tight lg:leading-tight">Enjoy Fresh Food <br className="hidden lg:block"/> in Your <span className="text-[#fb8011]">Healthy Life</span></h1>
                         <p className="text-[#2b2b2b] text-center lg:text-left text-md">Our commitement is to provide you with a menu that not <br className="hidden lg:block"/>  only satisfies your taste buds but also contributes to your overall well-being.</p>
                     </div>
 
@@ -41,7 +41,7 @@ const Hero = ()=>{
 
                 </div>
 
-                <div>
+                <div className="flex align-items items-center">
                 <Image src = "/phone.svg" alt="phone" width={520}  height={691}/>
                 </div>
 

@@ -6,6 +6,8 @@ import Features from "@/Components/Features"
 import Restaurant from "@/Components/Restaurant";
 import Customers from "@/Components/Customers"
 import Order from "@/Components/Order"
+import Testimonials from "@/Components/Testimonials"
+import Footer from "@/Components/Footer"
 
 export default function Home() {
   return (
@@ -19,6 +21,10 @@ export default function Home() {
      <Features/>
      <Restaurant/>
      <Customers/>
+     <Testimonials/>
+     <Order/>
+     <Footer/>
+    
      
     </main>
   );

@@ -1,0 +1,6 @@
+.black-back{
+    background-image: url("/public/blackback.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
